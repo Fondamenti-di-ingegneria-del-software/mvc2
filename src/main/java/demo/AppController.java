@@ -87,7 +87,7 @@ public class AppController {
     public String delete(
             @RequestParam(name="id", required=true) Long id) {
         //TODO: check if the result is found
-        //TODO: delete the old person and add a new person
+        //TODO: delete the old person
         return "redirect:/list";
         //TODO: in case no data is found, display the "notfound" page
     }
